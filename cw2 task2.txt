@@ -3,14 +3,14 @@ public class Main
 	public static void main(String[] args) {
 		
 		
-		int height = 165;
+		int height = 155;
 		
 		
-		if (160<height){
+		if (height>160){
 		System.out.println("you can enter");
 		
 	 
-		}else{
+		}else if (height<160 ){
 		    System.out.println("you can not enter");
 		}
 		
